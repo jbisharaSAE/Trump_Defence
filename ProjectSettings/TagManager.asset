@@ -13,13 +13,13 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Bullet1
+  - Bullet2
+  - Bullet3
+  - EBullet1
+  - EBullet2
+  - EBullet3
   - 
   - 
   - 
