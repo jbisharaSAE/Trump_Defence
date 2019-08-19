@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy1
+  - WhiteHouse
   layers:
   - Default
   - TransparentFX
@@ -16,10 +18,10 @@ TagManager:
   - Player
   - Bullet1
   - Bullet2
-  - Bullet3
-  - EBullet1
-  - EBullet2
-  - EBullet3
+  - EBullet
+  - WHouse
+  - 
+  - 
   - 
   - 
   - 
