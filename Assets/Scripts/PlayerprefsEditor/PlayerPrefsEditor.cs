@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
+
 public class PlayerPrefsEditor : EditorWindow
 {
 
 
-    string playerName;
-
-    float playerHeight;
-
-    int difficulty; 
-
+    //public string playerName;
+    //float playerHeight;
+    //int difficulty;
+    int toolbarInt = 0;
+    string[] toolbarStrings = { "Toolbar1", "Toolbar2", "Toolbar3" };
+    PlayerInformation playerInfo;
     
     
     [MenuItem("Window/PlayerPrefs")]
@@ -21,9 +22,19 @@ public class PlayerPrefsEditor : EditorWindow
 
     private void OnEnable()
     {
-        playerName = PlayerPrefs.GetString("Name");
-        playerHeight = PlayerPrefs.GetFloat("Height");
-        difficulty = PlayerPrefs.GetInt("Difficulty");
+        
+      
+
+        playerInfo = GameObject.Find("EGO PlayerInformation").GetComponent<PlayerInformation>();
+        
+        playerInfo.playerName = PlayerPrefs.GetString("Name");
+        playerInfo.playerHeight = PlayerPrefs.GetFloat("Height");
+        playerInfo.difficulty = PlayerPrefs.GetInt("Difficulty");
+
+        //playerInfo = FindObjectOfType<PlayerInformation>();
+
+        
+
     }
 
     private void OnGUI()
@@ -31,12 +42,13 @@ public class PlayerPrefsEditor : EditorWindow
         // Window Code
         GUILayout.Label("Player Profile", EditorStyles.boldLabel);
 
+        toolbarInt = GUILayout.Toolbar(toolbarInt, toolbarStrings);
 
-        playerName = EditorGUILayout.TextField("Name", playerName);
+        playerInfo.playerName = EditorGUILayout.TextField("Name", playerInfo.playerName);
 
-        PlayerPrefs.SetString("Name", playerName);
+        PlayerPrefs.SetString("Name", playerInfo.playerName);
 
-        playerHeight = EditorGUILayout.FloatField("Height", playerHeight);
+        playerInfo.playerHeight = EditorGUILayout.Slider("Height", playerInfo.playerHeight, 100f, 210f); //EditorGUILayout.FloatField("Height", playerInfo.playerHeight);
 
 
         GUILayout.Label("Game Difficulty", EditorStyles.boldLabel);
@@ -45,14 +57,15 @@ public class PlayerPrefsEditor : EditorWindow
 
         if(GUILayout.Button("Easy"))
         {
-            difficulty = 0;
-            Debug.Log(difficulty);
+            playerInfo.difficulty = 0;
+            Debug.Log(playerInfo.difficulty);
+            Debug.Log(playerInfo.playerName);
         }
 
         if (GUILayout.Button("Hard"))
         {
-            difficulty = 1;
-            Debug.Log(difficulty);
+            playerInfo.difficulty = 1;
+            Debug.Log(playerInfo.difficulty);
         }
 
         GUILayout.EndHorizontal();
