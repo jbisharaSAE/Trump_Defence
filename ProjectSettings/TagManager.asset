@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy1
   - WhiteHouse
+  - MovePoint
   layers:
   - Default
   - TransparentFX
@@ -20,9 +21,9 @@ TagManager:
   - Bullet2
   - EBullet
   - WHouse
-  - 
-  - 
-  - 
+  - Enemy
+  - Wall
+  - Bomb
   - 
   - 
   - 

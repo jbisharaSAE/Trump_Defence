@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
-    public Transform whiteHouse;
-    public Transform[] movePoints;
+    private GameObject whiteHouse;
     public Transform bulletSpawnPoint;
     public GameObject emblemBullet;
     public float moveSpeed;
@@ -13,28 +12,31 @@ public class EnemyScript : MonoBehaviour
 
     private int randomNumber;
     private Vector2 direction;
+    public GameObject[] movePoints;
 
     // Start is called before the first frame update
     void Start()
     {
+        whiteHouse = GameObject.FindGameObjectWithTag("WhiteHouse");
+        movePoints = GameObject.FindGameObjectsWithTag("MovePoint");
         RandomNumberGenerator();
         //InvokeRepeating("RandomNumberGenerator", 3f, 3f);
-        print(movePoints[randomNumber].position);
+        //print(movePoints[randomNumber].transform.position);
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        float distance = Vector2.Distance(transform.position, movePoints[randomNumber].position);
-        direction = new Vector2((whiteHouse.position.x - bulletSpawnPoint.position.x), (whiteHouse.position.y - bulletSpawnPoint.position.y));
+        float distance = Vector2.Distance(transform.position, movePoints[randomNumber].transform.position);
+        direction = new Vector2((whiteHouse.transform.position.x - bulletSpawnPoint.position.x), (whiteHouse.transform.position.y - bulletSpawnPoint.position.y));
 
         if (distance < 0.1f)
         {
             RandomNumberGenerator();
             ShootEmblem();
         }
-        transform.position = Vector2.MoveTowards(transform.position, movePoints[randomNumber].position, moveSpeed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, movePoints[randomNumber].transform.position, moveSpeed * Time.deltaTime);
 
     }
 

@@ -1,0 +1,758 @@
+fileFormatVersion: 2
+guid: 1b60285de639e8c41827a75e430809bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4896052885397556738
+    second: AtomicBomb_0
+  - first:
+      213: -8250736949537703529
+    second: AtomicBomb_1
+  - first:
+      213: -3923156038607287715
+    second: AtomicBomb_2
+  - first:
+      213: 8422793714420376969
+    second: AtomicBomb_3
+  - first:
+      213: 6148023102801732054
+    second: AtomicBomb_4
+  - first:
+      213: 4806823130084184904
+    second: AtomicBomb_5
+  - first:
+      213: -2443901824368126264
+    second: AtomicBomb_6
+  - first:
+      213: -606354032976174793
+    second: AtomicBomb_7
+  - first:
+      213: 6026972916851933
+    second: AtomicBomb_8
+  - first:
+      213: 1128472406261418901
+    second: AtomicBomb_9
+  - first:
+      213: 3748580946303012646
+    second: AtomicBomb_10
+  - first:
+      213: 2127813114940648214
+    second: AtomicBomb_11
+  - first:
+      213: 5749769693596395877
+    second: AtomicBomb_12
+  - first:
+      213: -6184277454262045638
+    second: AtomicBomb_13
+  - first:
+      213: -2081758169427614787
+    second: AtomicBomb_14
+  - first:
+      213: 4609561117036540719
+    second: AtomicBomb_15
+  - first:
+      213: -7268273836984309211
+    second: AtomicBomb_16
+  - first:
+      213: -3380924477461651540
+    second: AtomicBomb_17
+  - first:
+      213: -5583466855542100722
+    second: AtomicBomb_18
+  - first:
+      213: 6698950382702215270
+    second: AtomicBomb_19
+  - first:
+      213: 8096291823346630658
+    second: AtomicBomb_20
+  - first:
+      213: -5458499116996489054
+    second: AtomicBomb_21
+  - first:
+      213: -2938685340305099449
+    second: AtomicBomb_22
+  - first:
+      213: 5540556641503843483
+    second: AtomicBomb_23
+  - first:
+      213: -7695576967248249517
+    second: AtomicBomb_24
+  - first:
+      213: 4632800376081062141
+    second: AtomicBomb_25
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AtomicBomb_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 528
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c638f4be98d95459d2ae95f0c7aaa8
+      internalID: 4896052885397556738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 518
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9d9015a173c2749a0e161a3f0f815c
+      internalID: -8250736949537703529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_2
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 514
+        width: 92
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0499588551028be488d112fd444997f2
+      internalID: -3923156038607287715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_3
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 520
+        width: 78
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeaae4f05d7f2da4badaeda9d105e2d4
+      internalID: 8422793714420376969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_4
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 522
+        width: 77
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e09e95804228245b220d9788e656c3
+      internalID: 6148023102801732054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_5
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 392
+        width: 111
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a8a2da4b377c643aacc32d4927330c
+      internalID: 4806823130084184904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 392
+        width: 77
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5725000337652364993dfe8fa07703a9
+      internalID: -2443901824368126264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_7
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 396
+        width: 91
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07521d0ec1c41b74b933cb8a84405dee
+      internalID: -606354032976174793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_8
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 395
+        width: 123
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7eba19fe8ed534ea032131660c3f12
+      internalID: 6026972916851933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_9
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 390
+        width: 125
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2f01f7e04615247b9532c8f1b627f5
+      internalID: 1128472406261418901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 268
+        width: 102
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8656f8093c918e041a75939e8375ef81
+      internalID: 3748580946303012646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 271
+        width: 113
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd0e83c83a935b4f8bef249aae9e0b2
+      internalID: 2127813114940648214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_12
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 275
+        width: 118
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217fd4b2d68bd8c43900505c98e48638
+      internalID: 5749769693596395877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_13
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 272
+        width: 133
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fdd5ca73620834e8b1da5de376937e
+      internalID: -6184277454262045638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_14
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 273
+        width: 135
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2ed1be5b0cb104c9ab5d382c461e0c
+      internalID: -2081758169427614787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 140
+        width: 136
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39587df6e9844984599a856463387a48
+      internalID: 4609561117036540719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_16
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 129
+        width: 157
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fb02f6556e7b5469b5f57f0390457b
+      internalID: -7268273836984309211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_17
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 148
+        width: 151
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0100c76a2df414fabd73a288e19ff7
+      internalID: -3380924477461651540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_18
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 148
+        width: 164
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9835297a88e78024ca96a9d600722241
+      internalID: -5583466855542100722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_19
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 138
+        width: 163
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8179708c7d25f7e47957bacc4eba4253
+      internalID: 6698950382702215270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 15
+        width: 165
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2892da168fdf26746931161a2f4d337b
+      internalID: 8096291823346630658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_21
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 17
+        width: 162
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920269978abbb4142b36d7b19395a34c
+      internalID: -5458499116996489054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_22
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 19
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c13d3a44cda0e24481d4ab1793585ff
+      internalID: -2938685340305099449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_23
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 17
+        width: 168
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f66bf9a68b03949889a8c59881a63d
+      internalID: 5540556641503843483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_24
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 19
+        width: 160
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8883d56e318981449f9106c55e5a31d
+      internalID: -7695576967248249517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtomicBomb_25
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 457
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b660e87a83efe5243bd3e7128b34fbde
+      internalID: 4632800376081062141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bca5b5831ebeae74289e8e07a713de50
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

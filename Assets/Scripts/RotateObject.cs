@@ -5,14 +5,7 @@ using UnityEngine;
 public class RotateObject : MonoBehaviour
 {
     public float rotSpeed;
-    public float shootSpeed;
 
-    private Rigidbody2D rb;
-
-    private void Start()
-    {
-        rb = gameObject.GetComponent<Rigidbody2D>();
-    }
     // Update is called once per frame
     void Update()
     {

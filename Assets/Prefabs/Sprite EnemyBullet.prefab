@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 1514298901330529866}
   - component: {fileID: 6161450088079455141}
   - component: {fileID: 5910779475075049697}
-  m_Layer: 0
+  - component: {fileID: -8762847504210756684}
+  m_Layer: 11
   m_Name: Sprite EnemyBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,3 +132,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b442e81fc71874d8efded9e2699676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-8762847504210756684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5254487327576446365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281abea99e0fa7d40ab187b3703cab10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotSpeed: 1000
+  shootSpeed: 5

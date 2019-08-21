@@ -4,19 +4,44 @@ using UnityEngine;
 
 public class MyShooter : MonoBehaviour
 {
-    public GameObject bullet1;
+    public GameObject bullet;
+    public GameObject atomicBomb;
+    public GameObject whiteHouse;
     public Transform bulletSpawnPoint;
+    public Transform nukeSpawnPoint;
     public float shootSpeed;
 
+    private AudioSource myAudioSource;
     private Vector2 direction;
+    private float nukeShootTimer;
+
+
+    private void Start()
+    {
+        myAudioSource = GetComponent<AudioSource>();
+    }
 
     // Update is called once per frame
     void Update()
     {
         FaceMouse();
 
+        nukeShootTimer += Time.deltaTime;
+
+        
         if(Input.GetMouseButtonDown(0))
             ShootBulletOne();
+
+        if(nukeShootTimer >= 5f)
+        {
+            print(nukeShootTimer);
+            if (Input.GetMouseButtonDown(1))
+            {
+                ShootNuke();
+            }
+                
+        }
+        
     }
 
     private void FaceMouse()
@@ -33,8 +58,17 @@ public class MyShooter : MonoBehaviour
     }
     private void ShootBulletOne()
     {
-        GameObject myBullet = Instantiate(bullet1, transform.position, bulletSpawnPoint.rotation);
+        myAudioSource.Play();
+        GameObject myBullet = Instantiate(bullet, transform.position, bulletSpawnPoint.rotation);
         myBullet.GetComponent<Rigidbody2D>().AddForce(direction * shootSpeed); 
+
+    }
+    
+    private void ShootNuke()
+    {
+        whiteHouse.GetComponent<WhiteHouseHealth>().ResetNukeTimer();
+        nukeShootTimer = 0f;
+        Instantiate(atomicBomb, nukeSpawnPoint.transform.position, Quaternion.identity);
 
     }
 }

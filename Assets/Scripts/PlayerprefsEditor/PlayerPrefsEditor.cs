@@ -9,8 +9,8 @@ public class PlayerPrefsEditor : EditorWindow
     //public string playerName;
     //float playerHeight;
     //int difficulty;
-    int toolbarInt = 0;
-    string[] toolbarStrings = { "Toolbar1", "Toolbar2", "Toolbar3" };
+    //int toolbarInt;
+    //string[] toolbarStrings = { "Toolbar1", "Toolbar2", "Toolbar3" };
     PlayerInformation playerInfo;
     
     
@@ -23,13 +23,12 @@ public class PlayerPrefsEditor : EditorWindow
     private void OnEnable()
     {
         
-      
-
         playerInfo = GameObject.Find("EGO PlayerInformation").GetComponent<PlayerInformation>();
         
         playerInfo.playerName = PlayerPrefs.GetString("Name");
-        playerInfo.playerHeight = PlayerPrefs.GetFloat("Height");
+        playerInfo.gameTime = PlayerPrefs.GetFloat("Time");
         playerInfo.difficulty = PlayerPrefs.GetInt("Difficulty");
+        //toolbarInt = playerInfo.difficulty = PlayerPrefs.GetInt("Difficulty");
 
         //playerInfo = FindObjectOfType<PlayerInformation>();
 
@@ -42,16 +41,36 @@ public class PlayerPrefsEditor : EditorWindow
         // Window Code
         GUILayout.Label("Player Profile", EditorStyles.boldLabel);
 
-        toolbarInt = GUILayout.Toolbar(toolbarInt, toolbarStrings);
-
         playerInfo.playerName = EditorGUILayout.TextField("Name", playerInfo.playerName);
 
         PlayerPrefs.SetString("Name", playerInfo.playerName);
 
-        playerInfo.playerHeight = EditorGUILayout.Slider("Height", playerInfo.playerHeight, 100f, 210f); //EditorGUILayout.FloatField("Height", playerInfo.playerHeight);
+        playerInfo.gameTime = EditorGUILayout.Slider("Time (seconds)", playerInfo.gameTime, 120f, 300f); //EditorGUILayout.FloatField("Height", playerInfo.playerHeight);
 
-
+        PlayerPrefs.SetFloat("Time", playerInfo.gameTime);
         GUILayout.Label("Game Difficulty", EditorStyles.boldLabel);
+
+        //toolbarInt = GUILayout.Toolbar(toolbarInt, toolbarStrings);
+
+        //switch (toolbarInt)
+        //{
+        //    case 0:
+        //        Debug.Log(toolbarInt);
+        //        playerInfo.difficulty = toolbarInt;
+        //        PlayerPrefs.SetInt("Difficulty", toolbarInt);
+        //        break;
+        //    case 1:
+        //        Debug.Log(toolbarInt);
+        //        playerInfo.difficulty = toolbarInt;
+        //        PlayerPrefs.SetInt("Difficulty", toolbarInt);
+        //        break;
+        //    case 3:
+                
+        //        playerInfo.difficulty = toolbarInt;
+        //        Debug.Log(playerInfo.difficulty);
+        //        PlayerPrefs.SetInt("Difficulty", toolbarInt);
+        //        break;
+        //}
 
         GUILayout.BeginHorizontal();
 

@@ -1,26 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 
 public class PlayerInformation : MonoBehaviour
 {
     public string playerName;
     public int difficulty;
-    public float playerHeight;
+    public float gameTime;
 
-    public PlayerPrefsEditor myScript;
+    
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        //myScript = FindObjectOfType<PlayerPrefsEditor>();
-        //Debug.Log(myScript.playerName);
+        playerName = PlayerPrefs.GetString("Name");
+        gameTime = PlayerPrefs.GetFloat("Time");
+        difficulty = PlayerPrefs.GetInt("Difficulty");
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        
+        
+
         
     }
 }
