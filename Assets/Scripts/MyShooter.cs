@@ -36,12 +36,10 @@ public class MyShooter : MonoBehaviour
                 ShootBulletOne();
                 shootTimer = 0f;
             }
-                
             
         }
-        
 
-        if(nukeShootTimer >= 5f)
+        if (nukeShootTimer >= 5f)
         {
             print(nukeShootTimer);
             if (Input.GetMouseButtonDown(1))
