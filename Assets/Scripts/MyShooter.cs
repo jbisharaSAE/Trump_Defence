@@ -14,7 +14,7 @@ public class MyShooter : MonoBehaviour
     private AudioSource myAudioSource;
     private Vector2 direction;
     private float nukeShootTimer;
-
+    private float shootTimer;
 
     private void Start()
     {
@@ -27,10 +27,19 @@ public class MyShooter : MonoBehaviour
         FaceMouse();
 
         nukeShootTimer += Time.deltaTime;
-
+        shootTimer += Time.deltaTime;
         
-        if(Input.GetMouseButtonDown(0))
-            ShootBulletOne();
+        if(shootTimer >= 0.4f)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                ShootBulletOne();
+                shootTimer = 0f;
+            }
+                
+            
+        }
+        
 
         if(nukeShootTimer >= 5f)
         {

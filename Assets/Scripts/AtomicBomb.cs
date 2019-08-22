@@ -11,7 +11,7 @@ public class AtomicBomb : MonoBehaviour
     void Start()
     {
         circleCollider = GetComponent<CircleCollider2D>();
-        Destroy(gameObject, 4f);
+        Destroy(gameObject, 1f);
     }
 
     // Update is called once per frame

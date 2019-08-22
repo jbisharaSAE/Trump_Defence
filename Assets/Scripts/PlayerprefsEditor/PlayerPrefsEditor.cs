@@ -77,6 +77,7 @@ public class PlayerPrefsEditor : EditorWindow
         if(GUILayout.Button("Easy"))
         {
             playerInfo.difficulty = 0;
+            PlayerPrefs.SetInt("Difficulty", 0);
             Debug.Log(playerInfo.difficulty);
             Debug.Log(playerInfo.playerName);
         }
@@ -84,6 +85,7 @@ public class PlayerPrefsEditor : EditorWindow
         if (GUILayout.Button("Hard"))
         {
             playerInfo.difficulty = 1;
+            PlayerPrefs.SetInt("Difficulty", 1);
             Debug.Log(playerInfo.difficulty);
         }
 

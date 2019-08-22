@@ -11,11 +11,15 @@ public class WhiteHouseHealth : MonoBehaviour
     private float hpRatio;
     private AudioSource myAudioSource;
 
+    public GameObject playerObj;
+    public GameObject spawnEnemy;
     private float nukeTimer = 0f;
 
+    public GameObject gameOverImage;
     public PlayerInformation playerInfoScript;
     public Image hpBar;
     public Image nukeBar;
+
 
     // Start is called before the first frame update
     void Start()
@@ -48,6 +52,11 @@ public class WhiteHouseHealth : MonoBehaviour
         hpBar.fillAmount = hpRatio;
 
         nukeBar.fillAmount = nukeTimer / 100f;
+
+        if(health <= 0f)
+        {
+            GameOver();
+        }
     }
 
     public void DamageTaken()
@@ -59,5 +68,14 @@ public class WhiteHouseHealth : MonoBehaviour
     public void ResetNukeTimer()
     {
         nukeTimer = 0f;
+    }
+
+    public void GameOver()
+    {
+        gameOverImage.SetActive(true);
+        playerObj.SetActive(false);
+        spawnEnemy.SetActive(false);
+
+
     }
 }
